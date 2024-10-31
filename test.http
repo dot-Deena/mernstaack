@@ -1,0 +1,30 @@
+# request from client app 
+### get post put delete
+
+get http://localhost:3000/user-api/users
+###
+get http://localhost:3000/user-api/users/18
+###
+post http://localhost:3000/user-api/user
+Content-Type: application/json
+
+{
+    "username":"cherry",
+    "age":18 ,
+    "state":"hyderabad"
+} 
+###
+put http://localhost:3000/user-api/user
+Content-Type: application/json
+
+{
+    "username":"emmalee",
+    "age":16 ,
+    "state":"cali"
+} 
+###
+delete http://localhost:3000/user-api/users/1
+
+
+
+

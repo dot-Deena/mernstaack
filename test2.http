@@ -1,0 +1,28 @@
+# api request urls for products
+
+GET http://localhost:3500/product-api/products
+###
+GET http://localhost:3500/product-api/products/1
+###
+POST http://localhost:3500/product-api/products
+Content-Type: application/json
+
+{
+    "pId":1,
+    "pname":"samsung" ,
+    "type":"mobile"
+} 
+###
+PUT http://localhost:3500/product-api/product
+Content-Type: application/json
+
+{
+    "pId":1,
+    "pname":"apple" ,
+    "state":"mobile"
+} 
+###
+DELETE http://localhost:3500/product-api/products/api
+
+
+
