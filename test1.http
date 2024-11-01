@@ -1,0 +1,13 @@
+
+
+###
+GET http://localhost:3000/product-api/products
+### create product
+POST http://localhost:3000/product-api/product
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":"apple",
+    "type":"phone"
+}
