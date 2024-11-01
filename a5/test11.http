@@ -1,0 +1,27 @@
+
+
+###
+GET http://localhost:3000/product-api/products
+### objext id (hash value)
+GET http://localhost:3000/product-api/products/67251d363236946deb256806
+### object by field name(name)
+GET http://localhost:3000/product-api/product/apple
+### create product
+POST http://localhost:3000/product-api/product
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":"apple",
+    "type":"phone"
+}
+### update user 
+PUT http://localhost:3000/product-api/product
+Content-Type: application/json
+
+{
+     "_id": "67251d363236946deb256806",
+     "id":1,
+     "name":"apple",
+     "type":"pods"  
+}
