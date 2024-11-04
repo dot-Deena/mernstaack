@@ -1,0 +1,28 @@
+
+
+###
+GET http://localhost:3000/user-api/users
+### objext id (hash value)
+# GET http://localhost:3000/user-api/users/672435dc5e2b21160e78558f
+### non hash value - some field
+# GET http://localhost:3000/user-api/user/some
+
+### create user
+POST http://localhost:3000/user-api/user
+Content-Type: application/json
+
+{
+     "username":"sammy",
+     "password":"sammy12",
+     "age": 19  
+}
+### update user 
+# PUT http://localhost:3000/user-api/user
+# Content-Type: application/json
+
+# {
+#      "_id": "672435dc5e2b21160e78558f",
+#      "id":1,
+#      "name":"noa",
+#      "age": 12  
+# }
