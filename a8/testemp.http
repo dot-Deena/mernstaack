@@ -1,0 +1,10 @@
+###
+post http://localhost:3000/employee-api/employee
+Content-Type: application/json
+
+{
+    "name" : "MrHagrid",
+    "skills":["java", "python"],
+    "address":{"city":"nYC","state":"arkansas","pincode":112},
+    "prevExperiences":["frontend", "backened"]
+}
